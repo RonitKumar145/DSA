@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CP Run",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "g++ -std=c++17 patterns.cpp -o demo && demo.exe < input.txt > output.txt"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
