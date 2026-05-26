@@ -2,7 +2,7 @@
 
 This repository contains my Data Structures and Algorithms (DSA) practice solutions in C++.
 
-## 🚀 Goals
+## Goals
 
 - Master DSA fundamentals
 - Solve Striver A2Z Sheet
