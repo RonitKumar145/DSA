@@ -7,7 +7,7 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "g++ -std=c++17 patterns.cpp -o demo && demo.exe < input.txt > output.txt"
+                "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\" && \"${fileBasenameNoExtension}.exe\""
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
