@@ -1,0 +1,2 @@
+highest freq no : 5 - 2
+lowest freq no : -1 - 1

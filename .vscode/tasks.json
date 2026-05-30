@@ -7,10 +7,10 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\" && \"${fileBasenameNoExtension}.exe\""
+                "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\" && .\\${fileBasenameNoExtension}.exe < ..\\input.txt > ..\\output.txt"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${fileDirname}"
             },
             "group": {
                 "kind": "build",
